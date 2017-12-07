@@ -7,15 +7,6 @@ const VideoListItem = (props) => {
 export default VideoListItem;
 
 
-/*
-
-make a fucntional component with only a <li> element.
-
-
- */
-
-
-
 
 
 
