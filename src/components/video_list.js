@@ -3,7 +3,6 @@ import VideoListItem from './video_list_item';
 
 const VideoList = (props) => {
     const videoItems = props.videos.map((video) => {
-
         return (
             <VideoListItem
                 onVideoSelect={props.onVideoSelect}
@@ -11,8 +10,6 @@ const VideoList = (props) => {
                 video={video} />
         );
     });
-
-
     return (
         <ul>
             {videoItems}
