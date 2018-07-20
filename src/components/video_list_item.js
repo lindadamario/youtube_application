@@ -9,7 +9,6 @@ const VideoListItem = ({video, onVideoSelect}) => {
           <div className="thumbnail_img">
             <img src={imageUrl} alt="" />
           </div>
-
           <div className="body">
             <h2>{video.snippet.title}</h2>
           </div>
